@@ -1,5 +1,25 @@
 <app-header></app-header>
 
 <main>
-    <app-techs></app-techs>
+    <section class="main-content"> 
+        <h1>{{locales[i]}}</h1>
+        <app-techs></app-techs>
+    </section>
+
+    <section class="container-btns">
+        <button (click)="setIndex(0)">
+            <img src="../../../assets/icons/brazil.svg" alt="Brazilian Flag">
+            <p>Português</p>
+        </button>
+
+        <button (click)="setIndex(1)">
+            <img src="../../../assets/icons/english.svg" alt="Brazilian Flag">
+            <p>Inglês</p>
+        </button>
+
+        <button (click)="setIndex(2)">
+            <img src="../../../assets/icons/spanish.svg" alt="Brazilian Flag">
+            <p>Espanhol</p>
+        </button>
+    </section>
 </main>
