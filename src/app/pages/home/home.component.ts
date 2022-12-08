@@ -12,6 +12,24 @@ export class HomeComponent {
     "Hola, mi nombre es Gabriel Farias y soy desarrollador Front-End, Tecnologías que tengo experiencia:"
   ];
 
+  pt = [
+    "Português",
+    "Portuguese",
+    "Portugués"
+  ];
+
+  en = [
+    "Inglês",
+    "English",
+    "Inglés"
+  ];
+
+  es = [
+    "Espanhol",
+    "Spanish",
+    "Español"
+  ]
+
   i = 0;
 
   setIndex(n: number) {
